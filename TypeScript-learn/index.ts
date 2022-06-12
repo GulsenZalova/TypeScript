@@ -76,19 +76,3 @@ adTekrarla("Gülşən",10)
 
 
 
-interface Point{
-    x: number,
-    y: number
-}
-
-interface Passenger{
-    name: string;
-    nurname:string
-}
-
-interface Veicle{
-    currentlocation:Point;
-    travelTo(Point: Point): void;
-    getDistance(PointA: Point, PointB: Point): number;
-    addPassenger(Passenger: Passenger):void;
-}
